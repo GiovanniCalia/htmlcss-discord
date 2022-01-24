@@ -99,7 +99,7 @@ section h1{
 }
 
 .col-interno{
-    width: 55%;
+    width: 60%;
     height: 300px;
     position: absolute;
     top: 50%;
@@ -109,18 +109,33 @@ section h1{
 
 .col-interno img{
     padding-top: 0;
-    width: 50%;
+    width: 60%;
+}
+
+.sinistra{
     float: left;
 }
 
-.testo-destro{
-    width: 35%;
+.destra{
+    float: right;
+}
+
+.testo{
+    width: 30%;
     text-align: center;
     display: inline-block;
-    float: right;
     padding-top: 1rem;
 }
 
-.testo-destro h2{
+.testo h2{
     font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.destro{
+    float: right;
+}
+
+.sinistro{
+    float: left;
 }
