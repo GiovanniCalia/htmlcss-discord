@@ -92,19 +92,35 @@ section h1{
     color: white;
 }
 
-.cont{
+.cont-secondo{
     width: 100%;
-    height: 800px;
+    height: 600px;
     position: relative;
 }
 
-.interno{
-    
-}
-.interno img{
-    width: 40%;
+.col-interno{
+    width: 55%;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-.destro{
+.col-interno img{
+    padding-top: 0;
+    width: 50%;
+    float: left;
+}
+
+.testo-destro{
+    width: 35%;
+    text-align: center;
     display: inline-block;
+    float: right;
+    padding-top: 1rem;
+}
+
+.testo-destro h2{
+    font-size: 2rem;
 }
