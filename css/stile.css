@@ -45,6 +45,11 @@ li a:hover{
     text-decoration: underline;
 }
 
+button{
+    border-radius: 100px;
+    margin-left: 0.5rem;
+
+}
 .nav-header button{
     padding: 0.5em 0.7em;
     border-radius: 100px;
@@ -80,13 +85,13 @@ section h1{
 }
 
 .testo-interno button{
-    padding: 0.7em 1.5em;
-    border-radius: 100px;
+    padding: 0.8rem 1.3rem;
     border: none;
     margin-top: 1rem;
 }
 
 .testo-interno button:last-child{
+ 
     background-color: black;
     color: white;
 }
@@ -149,6 +154,7 @@ h2{
 
 .contenitore-ultimo-main{
     width: 100%;
+    height: 900px;
     background-color: rgb(246, 246, 246);
     text-align: center;
 }
@@ -191,4 +197,109 @@ h3{
     margin-top: 2rem;
     color: white;
     background-color: rgb(142, 161, 225);
+}
+
+footer{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(35, 39, 42);
+    color: white;
+    position: relative;
+}
+
+.con-principale-footer{
+    width: 80%;
+    height: 500px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.social{
+    width: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.social .margine{
+    display: inline-block;
+    margin: 1rem 0;
+    font-size: 80%;
+}
+
+h4{
+    font-size: 1.2rem;
+    color: rgb(115, 136, 218);
+}
+
+.social img{
+    width: 1.5rem;
+    vertical-align: middle;
+}
+
+footer  div:first-child{
+    display: inline-block;
+}
+
+div i{
+    margin-right: 1rem;
+}
+
+.con-footer{
+    width: 150px;
+    display: inline-block;
+    position: absolute;
+}
+
+.con-footer li{
+    display: block;
+    line-height: 1.8rem;
+}
+
+h5{
+    font-size: 1rem;
+    color: rgb(115, 136, 218);
+}
+
+.primo{
+    top: 0;
+    left: 250px;
+}
+
+.secondo{
+    top: 0;
+    left: 450px;
+}
+
+.terzo{
+    top: 0;
+    left: 650px;
+}
+
+.quarto{
+    top: 0;
+    left: 850px;
+}
+
+.footer-basso{
+    background-color: rgb(115, 136, 218);
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    left: 0;
+    bottom: 100px;
+}
+
+.footer-basso img{
+    vertical-align: middle;
+    margin-top: 20px;
+
+}
+
+.footer-basso button{
+    padding: 0.5em 0.7em;
+    float: right;
+    margin-top: 20px;
 }
