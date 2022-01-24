@@ -14,9 +14,8 @@ header{
     padding-top: 1em;
 }
 
-div > img{
+.nav-header > img{
     vertical-align: middle;
-   
 }
 
 .nav-header{
@@ -53,7 +52,7 @@ li a:hover{
     float: right;
 }
 
-section img{
+.contenitori img{
     width: 100%;
 }
 
@@ -104,11 +103,16 @@ section h1{
 
 .con-interno{
     width: 60%;
-    height: 300px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.con-interno::after{
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .con-interno img{
@@ -146,16 +150,45 @@ h2{
 .contenitore-ultimo-main{
     width: 100%;
     background-color: rgb(246, 246, 246);
+    text-align: center;
 }
 
 .con-interno-ultimo{
     width: 60%;
     margin: auto;
+    position: relative;
 }
 
 .testo-centrale{
-    text-align: center;
     width: 90%;
     margin: auto;
     padding-top: 2rem;
+}
+
+.con-interno-ultimo-basso{
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.stelle{
+    width: 370px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h3{
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.contenitore-ultimo-main button{
+    padding: 0.7em 1.5em;
+    border-radius: 100px;
+    border: none;
+    margin-top: 2rem;
+    color: white;
+    background-color: rgb(142, 161, 225);
 }
