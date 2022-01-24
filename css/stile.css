@@ -14,7 +14,7 @@ div > img{
 }
 
 .nav-header{
-    width: 80%;
+    width: 70%;
     position: relative;
     margin: auto;
     padding-top: 1em;
@@ -38,13 +38,55 @@ ul li{
     color: white;
 }
 
-button{
+li a:hover{
+    text-decoration: underline;
+}
+
+.nav-header button{
     padding: 0.5em 0.7em;
     border-radius: 100px;
     border: none;
     float: right;
 }
 
+button:hover{
+    color: lightblue;
+}
+
 section img{
     width: 100%;
+}
+
+section h1{
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+.cont-img{
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    position: relative;
+}
+
+.cont-interno{
+    width: 40%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; 
+}
+
+.cont-interno button{
+    padding: 0.7em 1.5em;
+    border-radius: 100px;
+    border: none;
+    margin-top: 1rem;
+}
+
+.cont-interno button:last-child{
+    background-color: black;
+    color: white;
 }
