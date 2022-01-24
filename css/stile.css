@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    background-color: rgb(36, 95, 232);
+}
+
+div > img{
+    vertical-align: middle;
+}
+
+.nav-header{
+    width: 80%;
+    position: relative;
+    margin: auto;
+    padding-top: 1em;
+}
+
+nav{
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+ul li{
+    display: inline-block;
+    margin: 0 0.5em;
+}
+
+ li a{
+    text-decoration: none;
+    color: white;
+}
+
+button{
+    padding: 0.5em 0.7em;
+    border-radius: 100px;
+    border: none;
+    float: right;
+}
+
+section img{
+    width: 100%;
+}
