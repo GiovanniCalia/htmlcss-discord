@@ -152,6 +152,14 @@ h2{
     float: left;
 }
 
+.wave-1hkxOo path{
+    fill: rgb(246, 246, 246);
+}
+
+.wave-2{
+    transform: rotate(180deg);
+
+}
 .contenitore-ultimo-main{
     width: 100%;
     height: 900px;
